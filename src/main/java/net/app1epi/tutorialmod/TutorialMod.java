@@ -1,5 +1,7 @@
 package net.app1epi.tutorialmod;
 
+import net.app1epi.tutorialmod.block.ModBlocks;
+import net.app1epi.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
