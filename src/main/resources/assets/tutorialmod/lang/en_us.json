@@ -9,5 +9,9 @@
   "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.tutorialmod.magic_block": "This is a §9magical§r block",
+  "tooltip.tutorialmod.chisel_down": "This Items changes blocks into bricks",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r For More Info"
 }
