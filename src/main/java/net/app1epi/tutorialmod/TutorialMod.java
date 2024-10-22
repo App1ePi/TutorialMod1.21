@@ -1,6 +1,7 @@
 package net.app1epi.tutorialmod;
 
 import net.app1epi.tutorialmod.block.ModBlocks;
+import net.app1epi.tutorialmod.item.ModItemGroups;
 import net.app1epi.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
